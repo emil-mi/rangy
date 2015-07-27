@@ -10,7 +10,7 @@
  * Build date: %%build:date%%
  */
 /* build:modularizeWithRangyDependency */
-rangy.createModule("Highlighter", ["ClassApplier"], function(api, module) {
+rangy.createModule("Highlighter", [""], function(api, module) {
     var dom = api.dom;
     var contains = dom.arrayContains;
     var getBody = dom.getBody;
